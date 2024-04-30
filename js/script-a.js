@@ -25,3 +25,9 @@ async function busca() {
         .then(text => JSON.parse(text.substr(47).slice(0, -2)))
     extraindodados(data.table.rows);
 }
+
+function atualizarDados() {
+    let equipeBusca = []
+    let quantBusca = []
+    let bandeiraBusca = []
+}
