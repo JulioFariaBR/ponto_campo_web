@@ -27,8 +27,5 @@ async function busca() {
 }
 
 function atualizarDados() {
-    while (equipeBusca.length <= 1) {
-        console.log(equipeBusca);
-        equipeBusca.pop();
-    }
+    equipeBusca = []
 }
