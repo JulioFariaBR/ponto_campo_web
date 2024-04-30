@@ -30,4 +30,13 @@ function atualizarDados() {
     while (equipeBusca.length) {
         equipeBusca.pop()
     }
+    while (quantBusca.length) {
+        quantBusca.pop()
+    }
+    while (bandeiraBusca.length) {
+        bandeiraBusca.pop()
+    }
+    console.log(equipeBusca)
+    console.log(quantBusca);
+    console.log(bandeiraBusca);
 }
