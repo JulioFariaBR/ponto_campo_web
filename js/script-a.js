@@ -1,7 +1,7 @@
 let equipeBusca = []
 let quantBusca = []
 let bandeiraBusca = []
-let realizarPesquisa = false
+let realizarPesquisa = true
 
 function extraindodados(dados) {
     dados.forEach((elemento, index) => {
@@ -27,6 +27,7 @@ async function letsQuizz() {
     if (realizarPesquisa == false) {
         console.log("Pesquisa está desativada");   
     } else {
+        console.log("Pesquisa está ativada");
         while (realizarPesquisa == true) {
             setTimeout(() => {
                 console.clear();
