@@ -13,6 +13,9 @@ function extraindodados(dados) {
             bandeiraBusca.push(elemento.c[2].v)
         }
     })
+    console.log(equipeBusca)
+    console.log(quantBusca);
+    console.log(bandeiraBusca);
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1Yk4UDDB2COLOjSBxRYHqwvSBu_b0tyBbOaYD4EqtLG0/gviz/tq?tqx=out:json`
@@ -21,17 +24,4 @@ async function busca() {
         .then(res => res.text())
         .then(text => JSON.parse(text.substr(47).slice(0, -2)))
     extraindodados(data.table.rows);
-}
-
-async function letsQuizz() {
-    if (realizarPesquisa == false) {
-        console.log("Pesquisa está desativada");   
-    } else {
-        console.log("Pesquisa está ativada");
-        while (realizarPesquisa == true) {
-            setTimeout(() => {
-                console.log("Deu um minuto");
-            }, 60000);
-        }
-    }
 }
