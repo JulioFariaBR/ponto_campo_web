@@ -27,7 +27,7 @@ async function busca() {
 }
 
 function atualizarDados() {
-    let equipeBusca = []
-    let quantBusca = []
-    let bandeiraBusca = []
+    while (equipeBusca.length <= 1) {
+        equipeBusca.pop();
+    }
 }
