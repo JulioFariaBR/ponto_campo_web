@@ -5,13 +5,9 @@ let realizarPesquisa = true
 
 function extraindodados(dados) {
     dados.forEach((elemento, index) => {
-        if (index == 0) {
-            
-        } else {
             equipeBusca.push(elemento.c[0].v)
             quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
-        }
     })
     console.log(equipeBusca)
     console.log(quantBusca);
