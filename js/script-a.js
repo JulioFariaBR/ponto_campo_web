@@ -32,6 +32,7 @@ async function letsQuizz() {
             setTimeout(() => {
                 console.clear();
                 busca()
+                console.log(equipeBusca, quantBusca, bandeiraBusca);
             }, 60000);
         }
     }
