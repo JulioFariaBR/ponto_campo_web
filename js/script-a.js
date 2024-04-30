@@ -29,13 +29,8 @@ async function letsQuizz() {
     } else {
         console.log("Pesquisa está ativada");
         while (realizarPesquisa == true) {
-            console.clear();
-            busca()
-            console.log(equipeBusca, quantBusca, bandeiraBusca);
             setTimeout(() => {
-                console.clear();
-                busca()
-                console.log(equipeBusca, quantBusca, bandeiraBusca);
+                console.log("Deu um minuto");
             }, 60000);
         }
     }
