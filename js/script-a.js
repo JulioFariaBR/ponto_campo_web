@@ -39,4 +39,5 @@ function atualizarDados() {
     console.log(equipeBusca)
     console.log(quantBusca);
     console.log(bandeiraBusca);
+    busca();
 }
