@@ -37,8 +37,8 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
-    if (inputNumero.value == "") {
-        inputNumero.value = 5;
-        console.log("Valor def. como 5", inputNumero);
+    if (document.querySelector('#numero__input').value == "") {
+        document.querySelector('#numero__input').value = 5;
+        console.log("Valor def. como 5", document.querySelector('#numero__input'));
     }
 }
