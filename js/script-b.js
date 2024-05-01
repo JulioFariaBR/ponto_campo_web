@@ -1,5 +1,6 @@
 let bandeirasA = []
 let bandeirasB = []
+let posiveisBandeiras = [1, 2, 3, 4, 5, 6]
 
 function contrutorDeBandeira(eq, quant, band) {
     eq.forEach((element, index) => {
