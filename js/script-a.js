@@ -10,11 +10,16 @@ function extraindodados(dados) {
             quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
     })
-    inputNumero.value = quantBusca[0]
-    console.log(equipeBusca)
-    console.log(quantBusca);
-    console.log(bandeiraBusca);
-    contrutorDeBandeira(equipeBusca, quantBusca, bandeiraBusca)
+    if (quantBusca > 0) {
+        inputNumero.value = quantBusca[0]
+        console.log(equipeBusca)
+        console.log(quantBusca);
+        console.log(bandeiraBusca);
+        contrutorDeBandeira(equipeBusca, quantBusca, bandeiraBusca)
+    } else {
+        contruirBandeirasFalsas(sectA)
+        contruirBandeirasFalsas(sectB)
+    }
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1Yk4UDDB2COLOjSBxRYHqwvSBu_b0tyBbOaYD4EqtLG0/gviz/tq?tqx=out:json`
@@ -39,4 +44,8 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
+}
+
+function contruirBandeirasFalsas(eq) {
+    eq.innerHTML = `Nenhum dados encontrados...`
 }
