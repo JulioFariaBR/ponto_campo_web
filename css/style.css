@@ -4,6 +4,7 @@
 
 .sect__div {
     width: 100px;
+    height: 100px;
 }
 
 .sect__div[data-bandeira="on"] {
