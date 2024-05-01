@@ -10,6 +10,7 @@ function extraindodados(dados) {
             quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
     })
+    inputNumero.value = quantBusca[0]
     console.log(equipeBusca)
     console.log(quantBusca);
     console.log(bandeiraBusca);
@@ -38,7 +39,5 @@ function atualizarDados() {
     console.log(bandeiraBusca);
     busca();
     if (document.querySelector('#numero__input').value == "") {
-        document.querySelector('#numero__input').value = quantBusca[0];
-        console.log("Valor def. como 5", quantBusca);
     }
 }
