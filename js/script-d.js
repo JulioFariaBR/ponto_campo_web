@@ -1,6 +1,6 @@
 let posiveisBandeiras = []
 
-function contrutorDeBandeiraPossiveis(numeroDeBandeiras) {
+function contrutorDeBandeiraPossiveis() {
     while (inputNumero.value > 0) {
         posiveisBandeiras.unshift(inputNumero.value)
         inputNumero.value = (--inputNumero.value)

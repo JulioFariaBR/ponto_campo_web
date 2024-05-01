@@ -14,7 +14,7 @@ function contrutorDeBandeira(eq, quant, band) {
         }
     });
     console.log(bandeirasA, bandeirasB);
-    
+    contrutorDeBandeiraPossiveis()
     contruindoCadaBandeira(bandeirasA, sectA)
     contruindoCadaBandeira(bandeirasB, sectB)
 }
