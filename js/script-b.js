@@ -8,7 +8,9 @@ function contrutorDeBandeira(eq, quant, band) {
                 bandeirasA.push(band[index]);   
             }
         } else if (element == "b") {
-            bandeirasB.push(band[index]);
+            if (comparacao(bandeirasB, band[index]) == true) {
+                bandeirasB.push(band[index]);   
+            }
         }
     });
     console.log(bandeirasA, bandeirasB);
