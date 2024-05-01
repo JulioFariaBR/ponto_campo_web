@@ -3,7 +3,7 @@
     width: 50vh;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 8px solid;
+    border: 8vh solid;
     border-color: #000 #0000;
     animation: l1 1s infinite;
   }
