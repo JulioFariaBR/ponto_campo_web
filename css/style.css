@@ -5,6 +5,9 @@
 .sect__div {
     width: 100px;
     height: 100px;
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
 }
 
 .sect__div[data-bandeira="on"] {
