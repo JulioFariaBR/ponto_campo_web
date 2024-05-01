@@ -1,5 +1,5 @@
 let equipeBusca = [];
-let quantBusca;
+let quantBusca = [];
 let bandeiraBusca = [];
 let realizarPesquisa = true;
 const inputNumero = document.querySelector('#numero__input');
@@ -7,9 +7,9 @@ const inputNumero = document.querySelector('#numero__input');
 function extraindodados(dados) {
     dados.forEach((elemento, index) => {
             equipeBusca.push(elemento.c[0].v)
+            quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
     })
-    quantBusca = elemento.c[2].v[0]
     console.log(equipeBusca)
     console.log(quantBusca);
     console.log(bandeiraBusca);
@@ -27,6 +27,9 @@ function atualizarDados() {
     while (equipeBusca.length) {
         equipeBusca.pop()
     }
+    while (quantBusca.length) {
+        quantBusca.pop()
+    }
     while (bandeiraBusca.length) {
         bandeiraBusca.pop()
     }
@@ -34,7 +37,6 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
-    console.log(quantBusca);
     if (document.querySelector('#numero__input').value == "") {
         document.querySelector('#numero__input').value = quantBusca[0];
         console.log("Valor def. como 5", document.querySelector('#numero__input'));
