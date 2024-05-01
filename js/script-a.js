@@ -39,6 +39,6 @@ function atualizarDados() {
     busca();
     if (document.querySelector('#numero__input').value == "") {
         document.querySelector('#numero__input').value = quantBusca[0];
-        console.log("Valor def. como 5", quantBusca[0]);
+        console.log("Valor def. como 5", quantBusca);
     }
 }
