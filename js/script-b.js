@@ -14,6 +14,18 @@ function contrutorDeBandeira(eq, quant, band) {
             if (comparacao(bandeirasB, band[index]) == true) {
                 bandeirasB.push(band[index]);   
             }
+        } else if (element == "c") {
+            if (comparacao(bandeirasC, band[index]) == true) {
+                bandeirasC.push(band[index]);   
+            }
+        } else if (element == "d") {
+            if (comparacao(bandeirasD, band[index]) == true) {
+                bandeirasD.push(band[index]);   
+            }
+        } else if (element == "e") {
+            if (comparacao(bandeirasE, band[index]) == true) {
+                bandeirasE.push(band[index]);   
+            }
         }
     });
     console.log(bandeirasA, bandeirasB);
