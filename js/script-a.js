@@ -1,7 +1,8 @@
-let equipeBusca = []
-let quantBusca = []
-let bandeiraBusca = []
-let realizarPesquisa = true
+let equipeBusca = [];
+let quantBusca = [];
+let bandeiraBusca = [];
+let realizarPesquisa = true;
+const inputNumero = document.querySelector('numero__input');
 
 function extraindodados(dados) {
     dados.forEach((elemento, index) => {
@@ -36,4 +37,8 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
+    if (inputNumero.value == "") {
+        inputNumero.value = 5;
+        console.log("Valor def como 5");
+    }
 }
