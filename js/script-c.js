@@ -6,6 +6,11 @@ const sectE = document.querySelector('[data-equipe="e"]');
 
 
 function contruindoCadaBandeira(lista, eq) {
+    sectA.innerHTML = ``;
+    sectB.innerHTML = ``;
+    sectC.innerHTML = ``;
+    sectD.innerHTML = ``;
+    sectE.innerHTML = ``;
     posiveisBandeiras.forEach((element, index) => {
         if (comparacao(lista, posiveisBandeiras[index]) == false) {
             eq.innerHTML = `${eq.innerHTML} <div class="sect__div" data-bandeira="on"></div>`
