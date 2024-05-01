@@ -10,10 +10,10 @@ body {
 }
 
 .loader {
-    width: 80%;
+    width: 150px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 48px solid lightblue;
+    border: 24px solid lightblue;
     border-right-color: orange;
     animation: l2 1s infinite linear;
   }
