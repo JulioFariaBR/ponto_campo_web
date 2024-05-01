@@ -5,11 +5,18 @@
 .sect__div {
     width: 100px;
     height: 100px;
+}
+
+.sect__div[data-bandeira="on"] {
+    background: url(../img/1.png);
     background-position: center;
     background-size: 100px;
     background-repeat: no-repeat;
 }
 
-.sect__div[data-bandeira="on"] {
-    background: url(../img/1.png);
+.sect__div[data-bandeira="off"] {
+    background: url(../img/2.png);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
 }
