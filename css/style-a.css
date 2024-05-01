@@ -20,7 +20,7 @@ body {
   @keyframes l2 {to{transform: rotate(1turn)}}
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
 }
