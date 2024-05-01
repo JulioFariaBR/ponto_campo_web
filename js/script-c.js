@@ -2,6 +2,7 @@ const sectA = document.querySelector('[data-equipe="a"]');
 const sectB = document.querySelector('[data-equipe="b"]');
 const sectC = document.querySelector('[data-equipe="c"]');
 const sectD = document.querySelector('[data-equipe="d"]');
+const sectE = document.querySelector('[data-equipe="e"]');
 
 
 function contruindoCadaBandeira(lista, eq) {

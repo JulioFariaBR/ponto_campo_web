@@ -2,6 +2,7 @@ let bandeirasA = []
 let bandeirasB = []
 let bandeirasC = []
 let bandeirasD = []
+let bandeirasE = []
 
 function contrutorDeBandeira(eq, quant, band) {
     eq.forEach((element, index) => {
@@ -19,8 +20,9 @@ function contrutorDeBandeira(eq, quant, band) {
     contrutorDeBandeiraPossiveis()
     contruindoCadaBandeira(bandeirasA, sectA)
     contruindoCadaBandeira(bandeirasB, sectB)
-    contruindoCadaBandeira(bandeirasD, sectC)
+    contruindoCadaBandeira(bandeirasC, sectC)
     contruindoCadaBandeira(bandeirasD, sectD)
+    contruindoCadaBandeira(bandeirasE, sectE)
 }
 
 function comparacao(lista, item) {
