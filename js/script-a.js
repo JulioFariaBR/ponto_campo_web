@@ -38,6 +38,4 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
-    if (document.querySelector('#numero__input').value == "") {
-    }
 }
