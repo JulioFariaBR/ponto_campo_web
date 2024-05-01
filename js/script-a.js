@@ -10,8 +10,8 @@ function extraindodados(dados) {
             quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
     })
+    inputNumero.value = quantBusca[0]
     if (quantBusca > 0) {
-        inputNumero.value = quantBusca[0]
         console.log(equipeBusca)
         console.log(quantBusca);
         console.log(bandeiraBusca);
