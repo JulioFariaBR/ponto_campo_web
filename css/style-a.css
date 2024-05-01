@@ -1,9 +1,9 @@
 /* HTML: <div class="loader"></div> */
 .loader {
-    width: 500px;
+    width: 100px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 80px solid lightblue;
+    border: 16px solid lightblue;
     border-right-color: orange;
     animation: l2 1s infinite linear;
   }
