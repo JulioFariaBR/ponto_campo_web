@@ -24,3 +24,12 @@ h1 {
     text-align: center;
     font-weight: 600;
 }
+
+.ok {
+    width: 200px;
+    height: 200px;
+    background: url(../img/1.png);
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
