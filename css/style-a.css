@@ -10,7 +10,7 @@ body {
 }
 
 .loader {
-    width: 150px;
+    width: 200px;
     aspect-ratio: 1;
     border-radius: 50%;
     border: 24px solid lightblue;
