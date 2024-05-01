@@ -14,6 +14,7 @@ function extraindodados(dados) {
     console.log(equipeBusca)
     console.log(quantBusca);
     console.log(bandeiraBusca);
+    contrutorDeBandeira(equipeBusca, quantBusca, bandeiraBusca)
 }
 async function busca() {
     let url = `https://docs.google.com/spreadsheets/d/1Yk4UDDB2COLOjSBxRYHqwvSBu_b0tyBbOaYD4EqtLG0/gviz/tq?tqx=out:json`

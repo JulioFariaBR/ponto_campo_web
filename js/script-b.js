@@ -9,4 +9,5 @@ function contrutorDeBandeira(eq, quant, band) {
             bandeirasB.push(band[index]);
         }
     });
+    console.log(bandeirasA, bandeirasB);
 }
