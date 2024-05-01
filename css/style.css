@@ -1,0 +1,11 @@
+.sect {
+    display: flex;
+}
+
+.sect__div {
+    width: 100px;
+}
+
+.sect__div[data-bandeira="on"] {
+    background: url(../img/1.png);
+}
