@@ -1,4 +1,8 @@
 /* HTML: <div class="loader"></div> */
+body {
+    display: flex;
+}
+
 .loader {
     width: 300px;
     aspect-ratio: 1;
