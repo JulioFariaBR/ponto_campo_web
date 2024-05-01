@@ -4,8 +4,9 @@ let bandeirasB = []
 function contrutorDeBandeira(eq, quant, band) {
     eq.forEach((element, index) => {
         if (element == "a") {
-            
-            bandeirasA.push(band[index]);
+            if (comparacao(bandeirasA, band[index]) == true) {
+                bandeirasA.push(band[index]);   
+            }
         } else if (element == "b") {
             bandeirasB.push(band[index]);
         }
