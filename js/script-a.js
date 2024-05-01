@@ -27,9 +27,6 @@ function atualizarDados() {
     while (equipeBusca.length) {
         equipeBusca.pop()
     }
-    while (quantBusca.length) {
-        quantBusca.pop()
-    }
     while (bandeiraBusca.length) {
         bandeiraBusca.pop()
     }
