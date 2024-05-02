@@ -20,7 +20,7 @@ function onInfos() {
         bandeira: band,
     }
     console.log(objetoCad);
-    //enviarDadosCad(objetoCad);
+    enviarDadosCad(objetoCad);
 
     body.innerHTML = complete;
 }
