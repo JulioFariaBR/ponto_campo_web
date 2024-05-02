@@ -22,7 +22,7 @@ function extraindodados(dados) {
     }
 }
 async function busca() {
-    let url = `https://docs.google.com/spreadsheets/d/1Yk4UDDB2COLOjSBxRYHqwvSBu_b0tyBbOaYD4EqtLG0/gviz/tq?tqx=out:json`
+    let url = `https://docs.google.com/spreadsheets/d/1DrtsyRvYewDXR8uOTcPD112E6d93p7pBwOGPV5PGJDU/gviz/tq?tqx=out:json`
 
     let data = await fetch(url)
         .then(res => res.text())
