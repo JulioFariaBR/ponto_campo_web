@@ -24,5 +24,3 @@ function onInfos() {
 
     body.innerHTML = complete;
 }
-
-onInfos()
