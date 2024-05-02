@@ -44,8 +44,13 @@ function atualizarDados() {
     console.log(quantBusca);
     console.log(bandeiraBusca);
     busca();
+    setTimeout(() => {
+        
+        }, "60000");        
 }
 
 function contruirBandeirasFalsas(eq) {
     eq.innerHTML = `Nenhum dados encontrados...`
 }
+
+atualizarDados();
