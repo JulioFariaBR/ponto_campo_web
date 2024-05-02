@@ -47,7 +47,7 @@ function atualizarDados() {
     setTimeout(() => {
         console.log("Atualizando...");
         location.reload()
-        }, "60000");        
+        }, "15000");        
 }
 
 function contruirBandeirasFalsas(eq) {
