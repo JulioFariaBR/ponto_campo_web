@@ -14,5 +14,7 @@ function onInfos() {
     quant = parseInt(params.get("quant"));
     band = parseInt(params.get("band"));
 
+    console.log(equipe, quant, band);
+
     body.innerHTML = complete;
 }
