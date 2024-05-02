@@ -14,7 +14,13 @@ function onInfos() {
     quant = parseInt(params.get("quant"));
     band = parseInt(params.get("band"));
 
-    console.log(equipe, quant, band);
+    objetoCad = {
+        equipe: equipe,
+        quant: quant,
+        bandeira: band,
+    }
+    console.log(objetoCad);
+    //enviarDadosCad(objetoCad);
 
     body.innerHTML = complete;
 }
