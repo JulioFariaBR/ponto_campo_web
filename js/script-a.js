@@ -45,7 +45,8 @@ function atualizarDados() {
     console.log(bandeiraBusca);
     busca();
     setTimeout(() => {
-        
+        console.log("Atualizando...");
+        location.reload()
         }, "60000");        
 }
 

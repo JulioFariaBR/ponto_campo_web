@@ -27,12 +27,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.h1 {
+h1 {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
 }
 
-.numero__input {
+#numero__input {
     display: none;
 }
