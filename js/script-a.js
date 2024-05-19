@@ -15,6 +15,7 @@ function extraindodados(dados) {
         console.log(equipeBusca)
         console.log(quantBusca);
         console.log(bandeiraBusca);
+        contrutorDeEquipes(equipeBusca, quantBusca, bandeiraBusca);
         contrutorDeBandeira(equipeBusca, quantBusca, bandeiraBusca)
     } else {
         contruirBandeirasFalsas(sectA)
@@ -52,6 +53,20 @@ function atualizarDados() {
 
 function contruirBandeirasFalsas(eq) {
     eq.innerHTML = `Nenhum dados encontrados...`
+}
+
+function contrutorDeEquipes() {
+    if (condition) {
+        
+    } else if (condition) {
+        
+    } else if (condition) {
+        
+    } else if (condition) {
+        
+    } else if (condition) {
+        
+    }
 }
 
 atualizarDados();
