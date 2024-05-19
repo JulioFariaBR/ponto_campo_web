@@ -5,7 +5,7 @@ let realizarPesquisa = true;
 const inputNumero = document.querySelector('#numero__input');
 
 function extraindodados(dados) {
-    dados.forEach((elemento, index) => {
+    dados.forEach((elemento, _index) => {
             equipeBusca.push(elemento.c[0].v)
             quantBusca.push(elemento.c[1].v)
             bandeiraBusca.push(elemento.c[2].v)
@@ -15,7 +15,6 @@ function extraindodados(dados) {
         console.log(equipeBusca)
         console.log(quantBusca);
         console.log(bandeiraBusca);
-        contrutorDeEquipes(equipeBusca, quantBusca, bandeiraBusca);
         contrutorDeBandeira(equipeBusca, quantBusca, bandeiraBusca)
     } else {
         contruirBandeirasFalsas(sectA)
@@ -55,16 +54,17 @@ function contruirBandeirasFalsas(eq) {
     eq.innerHTML = `Nenhum dados encontrados...`
 }
 
-function contrutorDeEquipes() {
-    if (condition) {
+function contrutorDeEquipes(_equipeA, _equipeB, _equipeC, _equipeD, _equipeE,) {
+    if (_equipeA.find((element) => element == 0) == 0) {
+        document.querySelector('[data-equipe="a"]').style.display = 'block';
+        document.querySelector('[data-equipetexto="a"]').style.display = 'block';
+    } else if (_equipeB.find((element) => element == 0) == 0) {
         
-    } else if (condition) {
+    } else if (_equipeB.find((element) => element == 0) == 0) {
         
-    } else if (condition) {
+    } else if (_equipeC.find((element) => element == 0) == 0) {
         
-    } else if (condition) {
-        
-    } else if (condition) {
+    } else if (_equipeD.find((element) => element == 0) == 0) {
         
     }
 }
