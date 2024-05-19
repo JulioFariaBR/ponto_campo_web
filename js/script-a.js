@@ -55,19 +55,19 @@ function contruirBandeirasFalsas(eq) {
 }
 
 function contrutorDeEquipes(_equipeA, _equipeB, _equipeC, _equipeD, _equipeE,) {
-    //if (_equipeA.find((element) => element == 0) == 0) {
-    //    document.querySelector('[data-equipe="a"]').style.display = 'flex';
-    //    document.querySelector('[data-equipetexto="a"]').style.display = 'block';
+    if (_equipeA.find((element) => element == 0) == 0) {
+        document.querySelector('[data-equipe="a"]').style.display = 'flex';
+        document.querySelector('[data-equipetexto="a"]').style.display = 'block';
     if (_equipeB.find((element) => element == 0) == 0) {
         document.querySelector('[data-equipe="b"]').style.display = 'flex';
         document.querySelector('[data-equipetexto="b"]').style.display = 'block';
-    } else if (_equipeC.find((element) => element == 0) == 0) {
+    if (_equipeC.find((element) => element == 0) == 0) {
         document.querySelector('[data-equipe="c"]').style.display = 'flex';
         document.querySelector('[data-equipetexto="c"]').style.display = 'block';
-    } else if (_equipeD.find((element) => element == 0) == 0) {
+    if (_equipeD.find((element) => element == 0) == 0) {
         document.querySelector('[data-equipe="d"]').style.display = 'flex';
         document.querySelector('[data-equipetexto="d"]').style.display = 'block';
-    } else if (_equipeE.find((element) => element == 0) == 0) {
+    if (_equipeE.find((element) => element == 0) == 0) {
         document.querySelector('[data-equipe="e"]').style.display = 'flex';
         document.querySelector('[data-equipetexto="e"]').style.display = 'block';
     }
